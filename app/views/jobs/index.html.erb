@@ -1,11 +1,11 @@
 <h1>Jobs</h1>
 <% @jobs.each do |job| %>
-	<div class="job">
+	<div class="booyah-box col-10 offset-1">
 		<h2><%= link_to job.title, job.url %></h2>
 		<p><%= job.company %></p>
 	</div>	
 <% end %>
 
-<p><%= link_to "Add a job", new_job_path %></p>
+
 	
 
